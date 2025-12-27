@@ -2,9 +2,8 @@ using System.Text;
 using System.Text.Json;
 
 
-
 HttpClient _ = new();
-/// есть еще другой вариант кода,даже забавнее но для него нужна были бы доп. либа.
+/// есть еще другой вариант кода,даже забавнее но для него нужна были бы доп. либа. исполняемый код решения задачи в таком случае приходил бы извне
 Console.WriteLine("Задача 3: Позабыты хлопоты, остановлен бег,\r\nВкалывают роботы," +
         " а не человек.\n");
 Console.WriteLine("Условия задачи");
@@ -125,3 +124,4 @@ async Task<string> ChatWithAiAsync(string prompt)
     }
     return fullAnswer.ToString();
 }
+
